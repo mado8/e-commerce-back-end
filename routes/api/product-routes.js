@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
         {model: Tag, through: ProductTag, as: 'product_tags'}
       ]
     });
-    res.status(200).json(categoryData);
+    res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -62,7 +62,7 @@ router.post('/', async (req, res) => {
             tag_id,
           };
         });
-        return await ProductTag.bulkCreate(productTagIdArr);
+        return ProductTag.bulkCreate(productTagIdArr);
       }
       // if no product tags, just respond
       res.status(200).json(product);
@@ -84,7 +84,7 @@ router.put('/:id', async (req, res) => {
   })
     .then((product) => {
       // find all associated tags from ProductTag
-      return await ProductTag.findAll({ where: { product_id: req.params.id } });
+      return ProductTag.findAll({ where: { product_id: req.params.id } });
     })
     .then((productTags) => {
       // get list of current tag_ids
