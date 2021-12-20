@@ -25,7 +25,7 @@ router.get('/:id', async (req, res) => {
       where: {
         id: req.params.id,
       },
-      include: [{ model: Product, as: 'category_products' }]
+      include: [{ model: Product }]
     });
 
     res.status(200).json(categoryData);
