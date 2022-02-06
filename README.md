@@ -12,7 +12,7 @@ This ecommmerce backend uses Insomnia, Express.js, and mySQL to allow users to u
 - [ Questions ](#Questions)</br>
 
 ## Installation
-To install, clone the repository and open with prefered editor. Note: node.js and npm must be installed. You will need some additional packages, so within your terminal type "npm i" to install all dependencies from package.json file. Additionally, Insomnia and MySQL must be installed. To create the database, login to your MySQL account by typing mysql -u - root -p in the root terminal. Once logged in, type source db/schema.sql. From there, you can follow the following tutorials in the usage section to utilize the application.
+To install, clone the repository and open with prefered editor. Note: node.js and npm must be installed. You will need some additional packages, so within your terminal type "npm i" to install all dependencies from package.json file. Additionally, Insomnia and MySQL must be installed. To create the database, login to your MySQL account by typing mysql -u - root -p in the root terminal. Once logged in, type source db/schema.sql. Type /q to quit once finished. To seed the databse, type in terminal npm run seed. From there, you can follow the following tutorials in the usage section to utilize the application.
 
 https://user-images.githubusercontent.com/88465484/152698172-cd031516-80da-43eb-b3d0-a88a4e2b8a03.mov
 
