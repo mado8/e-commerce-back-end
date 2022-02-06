@@ -17,7 +17,18 @@ To install, clone the repository and open with prefered editor. Note: node.js an
 ## Usage
 To use the app, launch Insomnia and create a new method request based upon your desired usage. In the case of POST requests, create a new JSON object in accordance with its schema. Have fun!
 
+https://user-images.githubusercontent.com/88465484/152698147-79833ec8-f8d5-4b43-88d9-c2f74732d5a9.mov
 
+https://user-images.githubusercontent.com/88465484/152698156-8caf2272-3bb9-4188-8829-99b33a5233ca.mov
+
+
+https://user-images.githubusercontent.com/88465484/152698163-aafce436-106f-40f7-ae25-3074a15f73bc.mov
+
+
+https://user-images.githubusercontent.com/88465484/152698172-cd031516-80da-43eb-b3d0-a88a4e2b8a03.mov
+
+
+https://user-images.githubusercontent.com/88465484/152698184-a168b475-faa5-4c6c-8adf-6e8145583a99.mov
 
 ## License 
 This project is licensed under MIT.  
