@@ -12,7 +12,7 @@ This ecommmerce backend uses Insomnia, Express.js, and mySQL to allow users to u
 - [ Questions ](#Questions)</br>
 
 ## Installation
-To install, clone the repository and open with prefered editor. Note: node.js and npm must be installed. You will need some additional packages, so within your terminal type "npm i" to install all dependencies from package.json file. Additionally, Insomnia must be installed. From there, you can follow the following tutorials in the usage section to utilize the application.
+To install, clone the repository and open with prefered editor. Note: node.js and npm must be installed. You will need some additional packages, so within your terminal type "npm i" to install all dependencies from package.json file. Additionally, Insomnia and MySQL must be installed. From there, you can follow the following tutorials in the usage section to utilize the application.
 
 ## Usage
 To use the app, launch Insomnia and create a new method request based upon your desired usage. In the case of POST requests, create a new JSON object in accordance with its schema. Have fun!
